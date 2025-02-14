@@ -13,7 +13,6 @@ type TimeDisplayProps = {
   timeZone: string;
   locale?: string; // Optionally allow locale, defaulting to 'en-GB'
 };
-
 const TimeDisplay: React.FC<TimeDisplayProps> = ({ timeZone, locale = "en-GB" }) => {
   const [currentTime, setCurrentTime] = useState("");
 
@@ -21,7 +20,7 @@ const TimeDisplay: React.FC<TimeDisplayProps> = ({ timeZone, locale = "en-GB" })
     const updateTime = () => {
       const now = new Date();
       const options: Intl.DateTimeFormatOptions = {
-        timeZone,
+        timeZone: "Asia/Karachi", // Corrected time zone
         hour: "2-digit",
         minute: "2-digit",
         second: "2-digit",
@@ -39,6 +38,7 @@ const TimeDisplay: React.FC<TimeDisplayProps> = ({ timeZone, locale = "en-GB" })
 
   return <>{currentTime}</>;
 };
+
 
 export default TimeDisplay;
 
