@@ -55,7 +55,7 @@ const home = {
   headline: <>Full Stack engineer and builder</>,
   subline: (
     <>
-      I'm Saif, a full stack developer at <InlineCode>FLY</InlineCode>, where I craft intuitive
+      I'm Saif, a full stack developer at <InlineCode>ACE</InlineCode>, where I craft intuitive
       <br /> user experiences. After hours, I build my own projects.
     </>
   ),
@@ -115,22 +115,7 @@ const about = {
           },
         ],
       },
-      {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
-        achievements: [
-          <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
-          </>,
-          <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
-          </>,
-        ],
-        images: [],
-      },
+      
     ],
   },
   studies: {
@@ -153,7 +138,7 @@ const about = {
     skills: [
       {
         title: "Figma to code",
-        description: <>Able to designs of Figma to real-time website with unnatural speed.</>,
+        description: <>Able to designs of Figma to real-time website with unnatural speed.trello's clone</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
